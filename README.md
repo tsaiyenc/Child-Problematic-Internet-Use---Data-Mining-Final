@@ -1,6 +1,6 @@
 # Child Mind Institute - Problematic Internet Use
 
-This project contains code for the "Child Mind Institute - Problematic Internet Use" data mining task. It involves analyzing data to predict problematice internet use based on physical activity and fitness data.
+This project contains code for the [Child Mind Institute — Problematic Internet Use](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/overview) data mining competition. It involves analyzing data to predict problematic internet use based on physical activity and fitness data.
 
 ## Pipeline
 
@@ -202,3 +202,17 @@ python analysis/plot_time_series.py --limit 10
 - `analysis/`: Feature engineering, feature merging, and visualization scripts.
 - `parsers/`: Data preprocessing and utility scripts (Parquet conversion, missing value checks).
 - `assets/`: Project assets and pipeline visualizations.
+
+## Citation
+
+
+
+```bibtex
+@misc{child-mind-institute-problematic-internet-use,
+    author = {Adam Santorelli and Arianna Zuanazzi and Michael Leyden and Logan Lawler and Maggie Devkin and Yuki Kotani and Gregory Kiar},
+    title = {Child Mind Institute — Problematic Internet Use},
+    year = {2024},
+    howpublished = {\url{https://kaggle.com/competitions/child-mind-institute-problematic-internet-use}},
+    note = {Kaggle}
+}
+```
